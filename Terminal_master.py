@@ -72,7 +72,7 @@ def main():
                 rank+=1
             
         elif choice == "3":
-            print("Exiting Terminal Typing Master...")
+            print("Thank you for using Terminal Typing Master...")
             break
 
         else:
