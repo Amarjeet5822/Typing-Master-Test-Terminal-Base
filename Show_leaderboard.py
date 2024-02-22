@@ -1,6 +1,6 @@
 import json
 
 def ShowLeaderBoard():
-    with open ("LeaderBoard.json","r") as file :
-        leaderboard=json.load (file)
-    return leaderboard #leaderboard ek dictionary hai
+    with open ("LeaderBoard.json","r") as f : 
+        leaderboard=json.load (f)
+    return leaderboard
