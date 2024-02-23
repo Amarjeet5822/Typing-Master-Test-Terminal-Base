@@ -26,11 +26,11 @@ def UpdateLeaderBoard(username,wpm):
 def ShowLeaderBoard():
     with open ("LeaderBoard.json","r") as file :
         leaderboard=json.load (file)
-    return leaderboard #leadferboard ek dictionary hai
+    return leaderboard #leaderboard ek dictionary hai
 
 def main():
-    # UpdateLeaderBoard("kishan",28.2454)
-    print("Welcome to Terminal Typing Master!")
+    # UpdateLeaderBoard("Amarjeet",28.2454)
+    print("Welcome to Terminal Typing ⌨️⌨️  Master!")
     username = input("Enter your username: ")
 
     while True:
@@ -41,7 +41,7 @@ def main():
         choice = input("Enter your choice: ")
 
         if choice == "1":
-            category = input("Choose a category (e.g., animals, fruits): ")
+            category = input("Choose a category (e.g., country, animals, fruits): ")
             words = load_words_from_category(category)
             start_time = time.time()
             words_typed = 0
@@ -79,16 +79,18 @@ def main():
             print("Invalid choice. Please choose again.")
 
 def load_words_from_category(category):
-    if category == "animals":
-        return ["cat", "dog", "elephant", "lion", "tiger"]
+    if category == "country":
+        return ["Aryavart","Bharat","Chidiya-of-gold","Devbhoomi","Hindustan","India"]
+    elif category == "animals":
+        return ["cat", "dog", "elephant", "lion", "tiger","monkey"]
     elif category == "fruits":
-        return ["apple", "banana", "orange", "grape", "watermelon"]
+        return ["apple", "banana", "orange", "grape", "watermelon","guava"]
     else:
-        print("Invalid category. Using default category 'animals'.")
-        return ["cat", "dog", "elephant", "lion", "tiger"]
+        print("Invalid category. Using default category 'country'.")
+        return ["Aryavart","Bharat","Chidiya-of-gold","Devbhoomi","Hindustan","India"]
 
 def calculate_wpm(words_typed, time_taken):
-    wpm = (words_typed / 5) / (time_taken / 60)  # Assuming 5 words per sentence
+    wpm = (words_typed / 6) / (time_taken / 60)  # Assuming 6 words per sentence
     return wpm
 
 if __name__ == "__main__":
