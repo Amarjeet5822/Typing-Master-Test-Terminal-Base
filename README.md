@@ -62,13 +62,13 @@ Once installed, you can launch Terminal Typing Master by running the following c
 Follow the on-screen instructions to initiate typing practice sessions and improve your typing skills.
 
 ## Starting
-![Intro](start.png)
+![Intro](images/start.png)
 
 ## Results
-![Results](category.png)
+![Results](images/catergory.png)
 
 ## Leaderboard
-![Leaderboard](leaderboard.png)
+![Leaderboard](images/leaderboard.png)
 
 ## Contributing
 
