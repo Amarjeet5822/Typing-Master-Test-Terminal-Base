@@ -1,69 +1,90 @@
 # Terminal Typing Master
 
-The Terminal Typing Master is a command-line application designed to help users improve their typing skills in a distraction-free environment. It offers a range of features for typing exercises, real-time feedback, and performance tracking.
+## Overview
+
+Terminal Typing Master is a command-line tool designed to enhance your typing skills right from the comfort of your terminal. Whether you're a beginner looking to improve your typing speed or an advanced user aiming for perfection, this tool provides a challenging and customizable environment for honing your typing abilities.
 
 ## Features
 
-- **Typing Exercises:**
-  - Choose from a variety of typing exercises, including random words, sentences, and paragraphs.
-  - Customize difficulty levels and exercise parameters.
+- **Customizable Practice Sessions:** Tailor your typing practice to focus on specific areas such as speed, accuracy, or the use of special characters.
 
-- **Real-time Feedback:**
-  - Receive immediate feedback on typing accuracy, speed, and error rate.
-  - Mistakes are highlighted, and corrections are suggested for effective learning.
+- **Varied Text Sources:** Practice typing with a diverse range of texts, including programming code snippets, famous quotes, or custom texts of your choice.
 
-- **Customization:**
-  - Adjust exercise duration, difficulty, and typing speed targets.
-  - Create and manage personalized user profiles to track individual progress.
+- **Real-time Statistics:** Receive immediate feedback on your typing performance, including words per minute (WPM), accuracy percentage, and error count.
 
-- **Performance Tracking:**
-  - Detailed statistics and performance metrics to monitor improvements.
-  - Historical data for visualizing progress over multiple sessions.
+- **Progress Tracking:** Monitor your progress over time with detailed session logs and historical data.
 
-- **Multi-User Support:**
-  - Multiple user profiles support, allowing different individuals to track their progress independently.
+- **Interactive User Interface:** A user-friendly command-line interface makes it easy to navigate and configure your typing practice sessions.
 
-- **Gamification:**
-  - Optional gamification elements to make the learning process engaging.
-  - Achievements, levels, and rewards for reaching typing milestones.
+## Installation
+
+To install Terminal Typing Master, follow these steps:
+
+1. Clone the repository to your local machine:
+
+    
+   ```
+      git clone https://github.com/Amarjeet5822/Typing-Master-Test-Terminal-Base.git
+   ```
+2. Navigate to the cloned directory:
+
+    
+   ```
+   cd Typing-Master-Test-Terminal-Base
+   ```
+    
+
+3. Install the necessary dependencies:
+
+    
+   ```
+      pip install time
+   ```
+
+   ```  
+      pip install termcolor
+   ``` 
+
+   ``` 
+      pip install json
+   ``` 
 
 ## Usage
 
-1. **Installation:**
-   - Follow the installation instructions provided in the documentation.
+Once installed, you can launch Terminal Typing Master by running the following command:
 
-2. **Command-Line Interface:**
-   - Interact with the Typing Master through a user-friendly command-line interface.
-   - Clear instructions and prompts guide users through exercises.
 
-3. **Progress Report:**
-   - Review the progress report after each session to identify areas for improvement.
+```
+   python Terminal_master.py
+```
 
-## Getting Started
 
-1. **Install the Module:**
-   - Ensure Python is installed on your system.
-   - Install the Typing Master module via a package manager or by running a setup script.
+Follow the on-screen instructions to initiate typing practice sessions and improve your typing skills.
 
-2. **Create a User Profile:**
-   - Set up a user profile with a unique identifier.
+## Starting
+![Intro](start.png)
 
-3. **Start Typing Exercises:**
-   - Select an exercise type, set parameters, and begin practicing.
+## Results
+![Results](category.png)
 
-4. **Track Progress:**
-   - Review the progress report to analyze performance and track improvements.
+## Leaderboard
+![Leaderboard](leaderboard.png)
 
-## Requirements
+## Contributing
 
-- Python (or other supported languages)
-- Terminal or command-line interface
-- Basic system requirements for running a command-line application.
+We welcome contributions to Terminal Typing Master! If you would like to contribute, please follow these guidelines:
 
-## Contribution
+1. Fork the repository on GitHub.
+2. Create a new branch from the main branch.
+3. Make your desired changes.
+4. Test your changes thoroughly.
+5. Create a pull request with a clear description of your changes.
 
-Contributions are welcome! Feel free to submit bug reports, feature requests, or even pull requests to enhance the functionality of the Terminal Typing Master.
 
----
+## Acknowledgments
 
-**Happy Typing!** 🚀✨
+We would like to express our gratitude to all contributors who have helped improve Terminal Typing Master.
+
+## Contact
+
+For any inquiries or support, please contact us at [amar.bst5822@gmail.com](mailto:amar.bst5822@gmail.com)
